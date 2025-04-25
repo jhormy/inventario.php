@@ -13,6 +13,8 @@ require_once "modelos/productos.modelo.php";
 require_once "modelos/clientes.modelo.php";
 require_once "modelos/ventas.modelo.php";
 require_once "extensiones/vendor/autoload.php";
+require_once "controladores/almacenes.controlador.php";
+require_once "modelos/almacenes.modelo.php";
 
 $plantilla = new ControladorPlantilla();
 $plantilla -> ctrPlantilla();
